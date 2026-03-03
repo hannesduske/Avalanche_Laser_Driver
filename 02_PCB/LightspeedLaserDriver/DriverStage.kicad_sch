@@ -956,6 +956,525 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transformer:ETC1-1-13"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ETC1-1-13"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Transformer_SMD:Transformer_MACOM_SM-22"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.macom.com/datasheets/ETC1-1-13.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MACOM RF Transformer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Transformer*MACOM*SM?22*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ETC1-1-13_0_0"
+				(polyline
+					(pts
+						(xy 3.81 0.762) (xy 3.81 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 3.429 0 900)
+					(effects
+						(font
+							(size 0.254 0.254)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "ETC1-1-13_1_1"
+				(circle
+					(center -3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 0.508) (xy -2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -0.508) (xy -2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.032) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 2.032)
+					(mid -2.032 1.5262)
+					(end -2.54 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.032)
+					(mid -2.032 -1.5262)
+					(end -1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.508) (xy -1.27 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 2.032)
+					(mid -1.016 1.5262)
+					(end -1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -2.032)
+					(mid -1.016 -1.5262)
+					(end -0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0.508) (xy -0.254 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.508) (xy -0.254 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 2.032)
+					(mid 0 1.5262)
+					(end -0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -2.032)
+					(mid 0 -1.5262)
+					(end 0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 2.032)
+					(mid 1.016 1.5262)
+					(end 0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -2.032)
+					(mid 1.016 -1.5262)
+					(end 1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 1.778 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy 1.778 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.032)
+					(mid 2.032 1.5262)
+					(end 1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 2.032 -1.5262)
+					(end 2.54 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0.508) (xy 2.794 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -0.508) (xy 2.794 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.048 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "The trigger input network high pass fitlers the input signal to limit the pulsewidth\nat the BJT base to ~10µs. This is to prevent damage to the system from sustained\ninput signals that keep the BJT turned on. The additional diode limits reverse voltage\nat the base that happens when the trigger signal goes from high to low."
 		(exclude_from_sim no)
@@ -980,7 +1499,7 @@
 		(uuid "ef56869b-403f-4bcc-83b6-1b56838b8b1b")
 	)
 	(junction
-		(at 137.16 85.09)
+		(at 104.14 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a2705d5-5f40-4399-b7ac-adfbe8014fb4")
@@ -1016,22 +1535,16 @@
 		(uuid "5a008e36-035f-4b5f-a4fc-807f5c82f709")
 	)
 	(junction
-		(at 137.16 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c06d9a0-6a7a-4d0b-829e-efef0ca94c83")
-	)
-	(junction
-		(at 151.13 85.09)
+		(at 118.11 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "779e909b-36ec-4e4f-8120-d35d5d601c3a")
 	)
 	(junction
-		(at 151.13 100.33)
+		(at 104.14 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3472943-4d71-41b0-82a6-bf44ebdaf551")
+		(uuid "8313bb4f-7bd8-46c4-9660-e566109d74d6")
 	)
 	(junction
 		(at 228.6 100.33)
@@ -1050,6 +1563,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec9e5e24-da57-45c0-88ec-dd7a97c71705")
+	)
+	(no_connect
+		(at 66.04 31.75)
+		(uuid "4d1a4813-c735-41b7-96b7-804d0f829d09")
 	)
 	(wire
 		(pts
@@ -1083,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 163.83 85.09)
+			(xy 118.11 31.75) (xy 130.81 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1630,27 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 85.09) (xy 137.16 85.09)
+			(xy 68.58 41.91) (xy 93.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2adbe0-2b1e-446d-a281-a15c648bf185")
+	)
+	(wire
+		(pts
+			(xy 93.98 41.91) (xy 93.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2160631a-cb3f-4179-8e87-8df77965a906")
+	)
+	(wire
+		(pts
+			(xy 100.33 31.75) (xy 104.14 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1130,6 +1667,16 @@
 			(type default)
 		)
 		(uuid "24cf9285-f80c-43b4-8e32-24824e86f7ba")
+	)
+	(wire
+		(pts
+			(xy 93.98 46.99) (xy 104.14 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27544ff0-37b1-4ca0-aae4-9d8dce4d10e3")
 	)
 	(wire
 		(pts
@@ -1153,13 +1700,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 100.33) (xy 171.45 100.33)
+			(xy 48.26 41.91) (xy 63.5 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "323e29e5-f6d0-42e9-8a6c-fbbe2805dfb3")
+		(uuid "397e38ce-c620-4780-a6a7-de61a109bbc4")
 	)
 	(wire
 		(pts
@@ -1183,7 +1730,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 85.09) (xy 137.16 88.9)
+			(xy 104.14 31.75) (xy 104.14 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1213,6 +1760,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 85.09) (xy 163.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629c8c64-0ea3-4308-8537-bb6de2401778")
+	)
+	(wire
+		(pts
 			(xy 186.69 63.5) (xy 171.45 63.5)
 		)
 		(stroke
@@ -1223,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 151.13 100.33)
+			(xy 118.11 43.18) (xy 118.11 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1233,7 +1790,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 125.73 85.09)
+			(xy 88.9 31.75) (xy 92.71 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 100.33) (xy 137.16 100.33)
+			(xy 87.63 100.33) (xy 171.45 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1840,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 151.13 88.9)
+			(xy 118.11 31.75) (xy 118.11 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 85.09) (xy 151.13 85.09)
+			(xy 104.14 31.75) (xy 118.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1373,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 115.57 85.09)
+			(xy 48.26 31.75) (xy 63.5 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1433,7 +1990,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 100.33) (xy 151.13 100.33)
+			(xy 104.14 46.99) (xy 118.11 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1443,13 +2000,54 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 137.16 100.33)
+			(xy 104.14 43.18) (xy 104.14 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4187554-4b07-4c94-b834-c5d3d5c6f29d")
+	)
+	(wire
+		(pts
+			(xy 68.58 31.75) (xy 81.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3475e9-71f4-4621-ae97-3a4d37856735")
+	)
+	(label "TRIG"
+		(at 152.4 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40207739-0334-45f6-bd9d-ff89edc1d353")
+	)
+	(label "TRIG"
+		(at 130.81 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8cf99b4-38b7-429b-849b-153f140c18ac")
+	)
+	(hierarchical_label "TRIG_IN-"
+		(shape input)
+		(at 48.26 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59d9250e-e524-4925-94fc-9b2580e0c2da")
 	)
 	(hierarchical_label "D-"
 		(shape output)
@@ -1462,9 +2060,9 @@
 		)
 		(uuid "5fdfff96-6019-4016-8454-49ae236309d8")
 	)
-	(hierarchical_label "TRIG"
+	(hierarchical_label "TRIG_IN_+"
 		(shape input)
-		(at 113.03 85.09 180)
+		(at 48.26 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1538,7 +2136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03489124-552b-4f8d-88d4-96b11f640e8e")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 77.47 67.31 0)
 			(effects
 				(font
@@ -1608,7 +2206,7 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -1616,7 +2214,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 85.09 90)
+		(at 96.52 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1624,7 +2222,7 @@
 		(dnp no)
 		(uuid "4faf1306-b492-4c6f-9900-16df6b343204")
 		(property "Reference" "C10"
-			(at 129.54 78.486 90)
+			(at 96.52 25.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +2230,7 @@
 			)
 		)
 		(property "Value" "10nF;100V"
-			(at 129.54 81.026 90)
+			(at 96.52 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +2238,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.35 84.1248 0)
+			(at 100.33 30.7848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 85.09 0)
+			(at 96.52 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +2256,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 129.54 85.09 0)
+			(at 96.52 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +2289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52820eac-bdbf-4c89-9e09-cf003806921b")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 210.82 84.1374 90)
 			(effects
 				(font
@@ -1700,7 +2298,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SD103AWS"
+		(property "Value" "SMD115PBQ-TP"
 			(at 210.82 86.6774 90)
 			(effects
 				(font
@@ -1709,7 +2307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "CustomFootprints:D_SOD-323HE"
 			(at 208.28 85.09 0)
 			(effects
 				(font
@@ -1745,7 +2343,85 @@
 		(instances
 			(project "LightspeedLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "D8")
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transformer:ETC1-1-13")
+		(at 66.04 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c424026-3a79-47a7-89ef-78451943a661")
+		(property "Reference" "TR1"
+			(at 60.706 26.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MABAES0060"
+			(at 60.706 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Transformer_SMD:Transformer_MACOM_SM-22"
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.macom.com/datasheets/ETC1-1-13.pdf"
+			(at 66.04 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22"
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f2308631-6d31-46d2-962b-85b5b2cb2330")
+		)
+		(pin "5"
+			(uuid "6c1201fd-4c50-4177-9a12-c86a9b4f0512")
+		)
+		(pin "3"
+			(uuid "67101858-71bb-41aa-a7b2-d00d8c7de512")
+		)
+		(pin "1"
+			(uuid "27c710f0-3915-47c6-be3d-4a89022dde13")
+		)
+		(pin "2"
+			(uuid "8f2eb912-587d-4c42-b75f-b25d9da19264")
+		)
+		(instances
+			(project ""
+				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
+					(reference "TR1")
 					(unit 1)
 				)
 			)
@@ -1760,7 +2436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67b62e42-ecd5-4413-8ca1-64f47583e2d2")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 100.33 67.31 90)
 			(effects
 				(font
@@ -1812,7 +2488,7 @@
 		(instances
 			(project "LightspeedLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1820,7 +2496,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 151.13 92.71 270)
+		(at 118.11 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1828,8 +2504,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "780c4bf8-2de3-4c26-b0c1-36bcd39adf45")
-		(property "Reference" "D7"
-			(at 153.67 91.1224 90)
+		(property "Reference" "D8"
+			(at 120.65 37.7824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +2514,7 @@
 			)
 		)
 		(property "Value" "SD103AWS"
-			(at 153.67 93.6624 90)
+			(at 120.65 40.3224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +2523,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 151.13 92.71 0)
+			(at 118.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +2532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 92.71 0)
+			(at 118.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +2541,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 151.13 92.71 0)
+			(at 118.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +2558,7 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -1897,7 +2573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "844e75da-a56c-4865-a500-2f3d709da838")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 230.124 90.17 0)
 			(effects
 				(font
@@ -1951,7 +2627,7 @@
 		(instances
 			(project "LightspeedLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2102,7 +2778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "936cfcf3-ddd5-4988-a0d0-56bab7f52f76")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 235.204 79.248 90)
 			(effects
 				(font
@@ -2154,7 +2830,7 @@
 		(instances
 			(project "LightspeedLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2239,7 +2915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5e28724-57f0-4483-b3f6-caaa9201424f")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 173.99 83.8199 0)
 			(effects
 				(font
@@ -2323,7 +2999,7 @@
 		(instances
 			(project "LightspeedLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2331,15 +3007,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 85.09 90)
+		(at 85.09 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bc0d1201-6af0-472f-b7c3-62fdbca2b084")
-		(property "Reference" "R10"
-			(at 119.38 79.756 90)
+		(property "Reference" "R11"
+			(at 85.09 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +3023,7 @@
 			)
 		)
 		(property "Value" "50R;1%"
-			(at 119.38 82.296 90)
+			(at 85.09 28.956 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +3031,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 119.38 86.868 90)
+			(at 85.09 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +3040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 85.09 0)
+			(at 85.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +3049,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 85.09 0)
+			(at 85.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +3066,7 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2398,7 +3074,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 92.71 180)
+		(at 104.14 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2406,8 +3082,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5fc0aea-d632-44d8-a87e-f0fead908457")
-		(property "Reference" "R11"
-			(at 139.7 91.4399 0)
+		(property "Reference" "R13"
+			(at 106.68 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +3092,7 @@
 			)
 		)
 		(property "Value" "100k;1%"
-			(at 139.7 93.9799 0)
+			(at 106.68 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +3101,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 138.938 92.71 90)
+			(at 105.918 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +3110,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 92.71 0)
+			(at 104.14 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +3119,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 92.71 0)
+			(at 104.14 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +3136,7 @@
 		(instances
 			(project "LightspeedLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)

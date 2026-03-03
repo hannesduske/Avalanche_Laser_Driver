@@ -1371,113 +1371,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Simulation_SPICE:PMOS"
 			(pin_numbers
 				(hide yes)
@@ -1820,12 +1713,6 @@
 		(uuid "614a601e-1f5f-4cb9-a345-a0dfb35d6454")
 	)
 	(junction
-		(at 177.8 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74b631be-d0b6-4e65-a16c-d3b28febb7ee")
-	)
-	(junction
 		(at 90.17 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1838,42 +1725,10 @@
 		(uuid "8b8f0dfc-eca2-4859-938b-1a42a13b2e0f")
 	)
 	(junction
-		(at 74.93 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3182b49-7437-482a-8762-3e5b732197c3")
-	)
-	(junction
 		(at 102.87 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c287ce29-c8b4-40aa-b978-d0869b3d222f")
-	)
-	(junction
-		(at 74.93 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb8e7b2f-9f59-4bf1-9c08-6c7e65567c31")
-	)
-	(wire
-		(pts
-			(xy 152.4 101.6) (xy 177.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02664947-5d69-4be3-a57e-9353b50f67c7")
-	)
-	(wire
-		(pts
-			(xy 74.93 109.22) (xy 77.47 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "047c1cb3-a014-493a-b025-1d406e48b7ca")
 	)
 	(wire
 		(pts
@@ -1897,13 +1752,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 101.6) (xy 74.93 109.22)
+			(xy 186.69 93.98) (xy 186.69 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12629d20-59b1-477e-aae2-8db1ccd074c6")
+		(uuid "15c68766-1a7e-4807-8e19-c2f7e2229742")
 	)
 	(wire
 		(pts
@@ -1947,6 +1802,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 91.44) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f8cebb-179a-43fb-a9c2-5e955899489d")
+	)
+	(wire
+		(pts
 			(xy 102.87 80.01) (xy 102.87 81.28)
 		)
 		(stroke
@@ -1967,23 +1832,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 101.6) (xy 203.2 101.6)
+			(xy 152.4 101.6) (xy 203.2 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a95a0ab-a6a7-48a6-9e48-893dc186851b")
-	)
-	(wire
-		(pts
-			(xy 77.47 114.3) (xy 74.93 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2bd67d-e3d0-4c74-955d-07de26b41028")
 	)
 	(wire
 		(pts
@@ -2034,6 +1889,16 @@
 			(type default)
 		)
 		(uuid "4bad1c40-79d6-4af4-9b01-202bd2f6b443")
+	)
+	(wire
+		(pts
+			(xy 175.26 93.98) (xy 186.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fb3eea-2021-4e2f-9d1f-03e47e213061")
 	)
 	(wire
 		(pts
@@ -2097,6 +1962,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 86.36) (xy 189.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9918a006-27d9-493d-9d63-e55cd5513538")
+	)
+	(wire
+		(pts
 			(xy 95.25 80.01) (xy 102.87 80.01)
 		)
 		(stroke
@@ -2127,16 +2002,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 95.25) (xy 177.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b67d2c14-2e9d-43d2-8eba-fb553f70a0e1")
-	)
-	(wire
-		(pts
 			(xy 74.93 82.55) (xy 74.93 85.09)
 		)
 		(stroke
@@ -2147,7 +2012,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 90.17) (xy 177.8 85.09)
+			(xy 175.26 86.36) (xy 175.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 85.09) (xy 189.23 85.09)
+			(xy 175.26 83.82) (xy 189.23 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2224,16 +2089,6 @@
 			(type default)
 		)
 		(uuid "f49b4c92-1dbd-4324-bd00-9c48e596cc68")
-	)
-	(wire
-		(pts
-			(xy 74.93 114.3) (xy 74.93 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff92b8c5-cfbe-49ad-be00-4807a3cb5fbf")
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Flash_Large")
@@ -2397,7 +2252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal"
+		(property "Footprint" "Connector_Coaxial:SMA_Wurth_60312002114503_Vertical"
 			(at 229.87 88.9 0)
 			(effects
 				(font
@@ -2449,7 +2304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35e4d7f8-aff8-497c-ac3c-43dfc6e74eca")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 130.81 95.5674 90)
 			(effects
 				(font
@@ -2512,7 +2367,7 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2520,7 +2375,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 177.8 92.71 270)
+		(at 175.26 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2529,7 +2384,7 @@
 		(fields_autoplaced yes)
 		(uuid "55e4ca0e-ff21-4556-b570-b704135c2a69")
 		(property "Reference" "J2"
-			(at 180.34 90.9203 90)
+			(at 177.8 87.1103 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2393,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 180.34 93.4603 90)
+			(at 177.8 89.6503 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,8 +2401,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal"
-			(at 177.8 92.71 0)
+		(property "Footprint" "Connector_Coaxial:SMA_Wurth_60312002114503_Vertical"
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 92.71 0)
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2420,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 177.8 92.71 0)
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,73 +2438,6 @@
 			(project "LightspeedLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 80.01 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57e00a85-e84a-436e-bd6a-546d1fa0c1f9")
-		(property "Reference" "H1"
-			(at 83.82 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 83.82 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 80.01 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 80.01 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b19d973d-0d74-43a8-a794-8f0960bd6998")
-		)
-		(instances
-			(project "LightspeedLaserDriver"
-				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2729,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ed52b10-c1b8-4d75-8863-5532e73481ee")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 67.31 73.66 0)
 			(effects
 				(font
@@ -2784,7 +2572,7 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2864,7 +2652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d5cd28-f184-4f0f-a8b6-959172b88087")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 90.17 73.66 90)
 			(effects
 				(font
@@ -2946,7 +2734,71 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(reference "Q2")
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 81.28 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7435b38-93f7-4684-a9e9-14a9a75c0c32")
+		(property "Reference" "H1"
+			(at 83.82 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 83.82 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LightspeedLaserDriver"
+				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3026,7 +2878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2c43476-b606-40c5-8652-d95dccee4193")
-		(property "Reference" "R15"
+		(property "Reference" "R1"
 			(at 92.71 93.9799 0)
 			(effects
 				(font
@@ -3080,7 +2932,71 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(reference "R15")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 81.28 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d26ae3c8-2db9-4523-a7dc-eeaca3ae0d05")
+		(property "Reference" "H2"
+			(at 83.82 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 83.82 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LightspeedLaserDriver"
+				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3096,7 +3012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4ce1364-5a7d-40db-9dc7-3de10f651fa9")
-		(property "Reference" "D9"
+		(property "Reference" "D1"
 			(at 105.41 83.8199 90)
 			(effects
 				(font
@@ -3150,74 +3066,7 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 80.01 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df260ef0-08e3-4158-80ff-a9ac16690aec")
-		(property "Reference" "H2"
-			(at 83.82 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 83.82 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e684788-1910-476b-9ca2-a3ca5f54d8c8")
-		)
-		(instances
-			(project "LightspeedLaserDriver"
-				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(reference "H2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3233,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7e9442e-04e8-4206-a873-db26f41ef29d")
-		(property "Reference" "R14"
+		(property "Reference" "R2"
 			(at 129.54 85.0899 0)
 			(effects
 				(font
@@ -3287,7 +3136,7 @@
 		(instances
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(reference "R14")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3421,16 +3270,6 @@
 				(justify left)
 			)
 		)
-		(pin "TRIG" input
-			(at 189.23 85.09 180)
-			(uuid "a2ff4697-fec3-47aa-b859-53a4dccbe72a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "D+" output
 			(at 215.9 77.47 0)
 			(uuid "cb051850-f754-4888-9e51-02f820241458")
@@ -3469,6 +3308,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "TRIG_IN-" input
+			(at 189.23 86.36 180)
+			(uuid "e862e25c-56ae-4112-94d1-7df144f01fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRIG_IN_+" input
+			(at 189.23 83.82 180)
+			(uuid "bd3887d6-5743-44ae-ac8e-a4d0e7238dfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
