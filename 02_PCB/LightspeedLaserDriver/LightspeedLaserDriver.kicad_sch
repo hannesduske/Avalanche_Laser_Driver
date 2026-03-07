@@ -1732,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 77.47) (xy 215.9 77.47)
+			(xy 241.3 77.47) (xy 232.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 93.98) (xy 186.69 86.36)
+			(xy 203.2 93.98) (xy 203.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1772,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 83.82) (xy 215.9 83.82)
+			(xy 246.38 83.82) (xy 232.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +1782,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 86.36) (xy 219.71 86.36)
+			(xy 232.41 86.36) (xy 236.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 175.26 93.98)
+			(xy 191.77 91.44) (xy 191.77 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 93.98) (xy 229.87 93.98)
+			(xy 236.22 93.98) (xy 246.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1832,13 +1832,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 203.2 101.6)
+			(xy 152.4 101.6) (xy 219.71 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a95a0ab-a6a7-48a6-9e48-893dc186851b")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 205.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4257a4a8-5fa2-44c9-825c-85754f2d9b99")
 	)
 	(wire
 		(pts
@@ -1892,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 93.98) (xy 186.69 93.98)
+			(xy 191.77 93.98) (xy 203.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 86.36) (xy 229.87 83.82)
+			(xy 246.38 86.36) (xy 246.38 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 86.36) (xy 189.23 86.36)
+			(xy 203.2 86.36) (xy 205.74 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 86.36) (xy 219.71 93.98)
+			(xy 236.22 86.36) (xy 236.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2012,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.36) (xy 175.26 83.82)
+			(xy 191.77 86.36) (xy 191.77 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2022,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 90.17) (xy 203.2 101.6)
+			(xy 219.71 90.17) (xy 219.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2042,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 83.82) (xy 189.23 83.82)
+			(xy 191.77 83.82) (xy 205.74 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2052,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 80.01) (xy 224.79 80.01)
+			(xy 232.41 80.01) (xy 241.3 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2062,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 93.98) (xy 229.87 91.44)
+			(xy 246.38 93.98) (xy 246.38 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2079,16 +2089,6 @@
 			(type default)
 		)
 		(uuid "f35f0cce-cc58-49a7-a161-6c106a730180")
-	)
-	(wire
-		(pts
-			(xy 165.1 80.01) (xy 189.23 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49b4c92-1dbd-4324-bd00-9c48e596cc68")
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Flash_Large")
@@ -2156,7 +2156,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 229.87 80.01 180)
+		(at 246.38 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2165,7 +2165,7 @@
 		(fields_autoplaced yes)
 		(uuid "245f90cd-fab8-4e61-94a2-0d96101444f4")
 		(property "Reference" "J3"
-			(at 231.14 77.4699 0)
+			(at 247.65 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 231.14 80.0099 0)
+			(at 247.65 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2183,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
-			(at 229.87 80.01 0)
+			(at 246.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 80.01 0)
+			(at 246.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2201,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 229.87 80.01 0)
+			(at 246.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2226,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 229.87 88.9 270)
+		(at 246.38 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2235,7 +2235,7 @@
 		(fields_autoplaced yes)
 		(uuid "31602f0a-71f9-4042-ac28-860a7d59fa2a")
 		(property "Reference" "J4"
-			(at 232.41 87.1103 90)
+			(at 248.92 87.1103 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2244,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 232.41 89.6503 90)
+			(at 248.92 89.6503 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2253,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Wurth_60312002114503_Vertical"
-			(at 229.87 88.9 0)
+			(at 246.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 88.9 0)
+			(at 246.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 229.87 88.9 0)
+			(at 246.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +2375,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 175.26 88.9 270)
+		(at 191.77 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2384,7 +2384,7 @@
 		(fields_autoplaced yes)
 		(uuid "55e4ca0e-ff21-4556-b570-b704135c2a69")
 		(property "Reference" "J2"
-			(at 177.8 87.1103 90)
+			(at 194.31 87.1103 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2393,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 177.8 89.6503 90)
+			(at 194.31 89.6503 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2402,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Wurth_60312002114503_Vertical"
-			(at 175.26 88.9 0)
+			(at 191.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 88.9 0)
+			(at 191.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2420,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 175.26 88.9 0)
+			(at 191.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3216,7 @@
 		)
 	)
 	(sheet
-		(at 189.23 74.93)
+		(at 205.74 74.93)
 		(size 26.67 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3232,7 +3232,7 @@
 		)
 		(uuid "c432be33-a0da-4a48-91d9-002ec1627f39")
 		(property "Sheetname" "Driver Stage"
-			(at 189.23 74.2184 0)
+			(at 205.74 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3241,7 @@
 			)
 		)
 		(property "Sheetfile" "DriverStage.kicad_sch"
-			(at 189.23 90.7546 0)
+			(at 205.74 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3251,7 @@
 			)
 		)
 		(pin "GND" output
-			(at 203.2 90.17 270)
+			(at 219.71 90.17 270)
 			(uuid "b21e8c6b-6dc8-4295-be00-f1485a906aa2")
 			(effects
 				(font
@@ -3261,7 +3261,7 @@
 			)
 		)
 		(pin "HV_IN" input
-			(at 189.23 80.01 180)
+			(at 205.74 80.01 180)
 			(uuid "2248c9ed-c0db-4751-80ed-acbf552033fd")
 			(effects
 				(font
@@ -3271,7 +3271,7 @@
 			)
 		)
 		(pin "D+" output
-			(at 215.9 77.47 0)
+			(at 232.41 77.47 0)
 			(uuid "cb051850-f754-4888-9e51-02f820241458")
 			(effects
 				(font
@@ -3281,7 +3281,7 @@
 			)
 		)
 		(pin "D-" output
-			(at 215.9 80.01 0)
+			(at 232.41 80.01 0)
 			(uuid "e02db678-fe6e-4771-b913-99e36b6127a7")
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 			)
 		)
 		(pin "I_sense+" output
-			(at 215.9 83.82 0)
+			(at 232.41 83.82 0)
 			(uuid "32fe5564-a760-4365-b4d5-3cce48fd7c8f")
 			(effects
 				(font
@@ -3301,7 +3301,7 @@
 			)
 		)
 		(pin "I_sense-" output
-			(at 215.9 86.36 0)
+			(at 232.41 86.36 0)
 			(uuid "17800012-caec-4c0a-bf62-ed8cd9349f2b")
 			(effects
 				(font
@@ -3311,7 +3311,7 @@
 			)
 		)
 		(pin "TRIG_IN-" input
-			(at 189.23 86.36 180)
+			(at 205.74 86.36 180)
 			(uuid "e862e25c-56ae-4112-94d1-7df144f01fd5")
 			(effects
 				(font
@@ -3321,7 +3321,7 @@
 			)
 		)
 		(pin "TRIG_IN_+" input
-			(at 189.23 83.82 180)
+			(at 205.74 83.82 180)
 			(uuid "bd3887d6-5743-44ae-ac8e-a4d0e7238dfb")
 			(effects
 				(font
