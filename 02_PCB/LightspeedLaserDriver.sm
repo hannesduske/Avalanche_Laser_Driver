@@ -4,7 +4,7 @@
   <settings ppi="120">
     <identity>
       <id>e8bd0d25-5849-42fd-870b-be0fb6726d89</id>
-      <revision>11</revision>
+      <revision>12</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -779,7 +779,7 @@
     <region left="468" top="3807" width="264" height="68" color="#000000" fontSize="10">
       <text lang="ger" width="257" fontFamily="Arial" fontSize="10">
         <content>
-          <p>Minimum switching off time is 115ns. This means the maximum output violtage may not be reachable with minimum input voltage</p>
+          <p>Minimum switching off time is 115ns. This means the maximum output voltage may not be reachable with minimum input voltage</p>
         </content>
       </text>
     </region>
@@ -830,7 +830,7 @@
         </result>
       </math>
     </region>
-    <region left="450" top="3942" width="278" height="23" color="#000000" fontSize="10">
+    <region left="468" top="3951" width="278" height="23" color="#000000" fontSize="10">
       <text lang="ger" fontFamily="Arial" fontSize="10">
         <content>
           <p>Inductor must handle 2.7A without saturating</p>
@@ -864,6 +864,13 @@
           <e type="operand">17.3301</e>
         </result>
       </math>
+    </region>
+    <region left="522" top="3987" width="174" height="23" color="#000000" fontSize="10">
+      <text lang="ger" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Max allowed output current</p>
+        </content>
+      </text>
     </region>
     <region left="108" top="4032" width="279" height="53" color="#000000" fontSize="10">
       <math>
