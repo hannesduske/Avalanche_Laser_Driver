@@ -82,13 +82,13 @@
 		(aux_axis_origin 160 110)
 		(grid_origin 160 110)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5757f5ff)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -1242,7 +1242,7 @@
 			(roundrect_rratio 0.125)
 			(net 38 "Net-(F1-Pad1)")
 			(pintype "passive")
-			(uuid "8cb69c78-123d-4768-909e-68c21980f1f5")
+			(uuid "46fb506b-c7c9-4fb0-9811-580e0f2d655e")
 		)
 		(pad "2" smd roundrect
 			(at 5.5 3.075 270)
@@ -2363,6 +2363,17 @@
 			(uuid "487fa8e1-6cf3-435b-b97d-c2b8b78d9baf")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -2990,26 +3001,6 @@
 		(sheetname "/")
 		(sheetfile "LightspeedLaserDriver.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -0.210242 -1.985)
-			(end 0.210242 -1.985)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "299504b8-ff5b-4d23-9573-fc6887f32b98")
-		)
-		(fp_line
-			(start -0.210242 1.985)
-			(end 0.210242 1.985)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "053fcf4b-86db-4a97-8dab-bb9ac78c147a")
-		)
 		(fp_rect
 			(start -1.88 -2.28)
 			(end 1.88 2.28)
@@ -11775,7 +11766,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Fixed Pulsewidth\nAvalanche Laser Driver\n\nOutput is adjustable\nbetween 100-260V\n\n(c) Hannes Duske 2026\nV0.1"
+	(gr_text "Fixed Pulsewidth\nAvalanche Laser Driver\n\nOutput adjustable\nbetween 100-260V\n\n(c) Hannes Duske 2026\nV0.1"
 		(at 131.5 110 270)
 		(layer "B.SilkS")
 		(uuid "4832a230-b41e-4574-8f4f-418aa0b9029c")
