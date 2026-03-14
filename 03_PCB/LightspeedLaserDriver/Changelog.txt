@@ -1,0 +1,5 @@
+Changelog
+- V0.1
+  - Initial prototype
+-V01.1
+  - Fix silkscreen marking of current sensitivity to 100 A/V
