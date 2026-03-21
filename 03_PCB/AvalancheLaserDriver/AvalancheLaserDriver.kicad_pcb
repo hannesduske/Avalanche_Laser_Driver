@@ -463,7 +463,7 @@
 				)
 			)
 		)
-		(property "Value" "SD103AWS"
+		(property "Value" "SD103AWS/PMEG3005EJ"
 			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "8894da8e-4395-4ba1-84f4-561b6f998d77")
@@ -777,7 +777,7 @@
 		(property ki_fp_filters "BarrelJack*")
 		(path "/6ed52b10-c1b8-4d75-8863-5532e73481ee")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 3.075)
@@ -1615,7 +1615,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/b7b9fe89-ef53-485f-b408-1bb9e344f3c2")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1729,7 +1729,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/35e4d7f8-aff8-497c-ac3c-43dfc6e74eca")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -2819,7 +2819,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k;1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5b31865a-9d93-4540-9675-d0cc3b409e87")
@@ -2857,7 +2857,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c2c43476-b606-40c5-8652-d95dccee4193")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -2999,7 +2999,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/245f90cd-fab8-4e61-94a2-0d96101444f4")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -1.88 -2.28)
@@ -3551,7 +3551,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d4ce1364-5a7d-40db-9dc7-3de10f651fa9")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 0.85)
@@ -3823,7 +3823,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d26ae3c8-2db9-4523-a7dc-eeaca3ae0d05")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4208,7 +4208,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/39a662bd-12ff-45e0-a228-26c24947ef79")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.162779 -0.51)
@@ -4820,7 +4820,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/b7435b38-93f7-4684-a9e9-14a9a75c0c32")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -6019,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Value" "100n;500V"
+		(property "Value" "22n;500V"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "48d2ff9b-e847-498e-9d8e-36a14f5157a3")
@@ -6199,7 +6199,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/8a55e54f-5f3c-47ab-acec-62e51b0ec36e")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -7015,7 +7015,7 @@
 		)
 		(path "/93d5cd28-f184-4f0f-a8b6-959172b88087")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
@@ -7473,7 +7473,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "47k;1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2a69cb55-c7cd-412c-bb3d-075f2cc1d2f4")
@@ -7511,7 +7511,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f7e9442e-04e8-4206-a873-db26f41ef29d")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8145,7 +8145,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/31602f0a-71f9-4042-ac28-860a7d59fa2a")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.8 3.68)
@@ -10005,7 +10005,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/55e4ca0e-ff21-4556-b570-b704135c2a69")
 		(sheetname "/")
-		(sheetfile "LightspeedLaserDriver.kicad_sch")
+		(sheetfile "AvalancheLaserDriver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.8 3.68)
