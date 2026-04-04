@@ -236,6 +236,10 @@
         {
           "diameter": 0.5,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -481,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LightspeedLaserDriver.kicad_pro",
+    "filename": "AvalancheLaserDriver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -719,6 +723,10 @@
     [
       "c432be33-a0da-4a48-91d9-002ec1627f39",
       "Driver Stage"
+    ],
+    [
+      "9a3e9dad-710f-4223-a9a8-278918998650",
+      "Input Protection"
     ]
   ],
   "text_variables": {}
