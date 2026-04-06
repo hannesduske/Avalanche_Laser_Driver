@@ -1877,16 +1877,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 45.72) (xy 214.63 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04363360-554b-440d-8bc1-ad259cae7797")
-	)
-	(wire
-		(pts
 			(xy 254 81.28) (xy 254 83.82)
 		)
 		(stroke
@@ -2087,16 +2077,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 43.18) (xy 214.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eb61834-1117-4647-b6a2-8cc3744c66a2")
-	)
-	(wire
-		(pts
 			(xy 168.91 101.6) (xy 179.07 101.6)
 		)
 		(stroke
@@ -2247,6 +2227,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 43.18) (xy 214.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b3b517-bee0-45fd-af9b-77a12698c027")
+	)
+	(wire
+		(pts
 			(xy 201.93 54.61) (xy 203.2 54.61)
 		)
 		(stroke
@@ -2314,6 +2304,16 @@
 			(type default)
 		)
 		(uuid "c8fce5e2-3e31-4d8f-b0f3-310d22da82c7")
+	)
+	(wire
+		(pts
+			(xy 198.12 45.72) (xy 214.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd611bf-5f65-44cc-a97d-5477f8419d42")
 	)
 	(wire
 		(pts
@@ -2559,7 +2559,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape output)
-		(at 214.63 45.72 0)
+		(at 214.63 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2592,7 +2592,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape output)
-		(at 214.63 43.18 0)
+		(at 214.63 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2652,7 +2652,7 @@
 				)
 			)
 		)
-		(property "Value" "US1MHM3"
+		(property "Value" "SRL1G"
 			(at 77.47 39.37 0)
 			(effects
 				(font
@@ -2660,7 +2660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "CustomFootprints:D_SOD-323HE"
 			(at 77.47 43.18 0)
 			(effects
 				(font
@@ -2669,7 +2669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/Vishay-General-Semiconductor/US1MHM3_A-H?qs=MLItCLRbWsyuATj1n8rkCw%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/SRL1G?qs=OlC7AqGiEDl7X0IDSJrV8A%3D%3D"
 			(at 77.47 43.18 0)
 			(effects
 				(font

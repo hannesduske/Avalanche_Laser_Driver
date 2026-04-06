@@ -11,3 +11,5 @@ Changelog
   - Use the enable switch to switch the input voltage, not the enable signal. This prevents the output from floating at Vin when switched off.
   - Add a transistor buffer stage to the trigger circuit
   - Increase operating voltage up to 320V by adding a second output multiplier stage
+  - Add teardrops to all traces
+  - Select smaller rectifier diode
