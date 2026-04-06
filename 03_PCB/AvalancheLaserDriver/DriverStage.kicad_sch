@@ -1768,7 +1768,7 @@
 	)
 	(text "Status LED"
 		(exclude_from_sim no)
-		(at 253.492 76.962 0)
+		(at 253.492 68.072 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1867,6 +1867,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 100.33) (xy 254 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03dfb88c-7885-4a4f-975b-e10750af4b56")
+	)
+	(wire
+		(pts
 			(xy 198.12 45.72) (xy 214.63 45.72)
 		)
 		(stroke
@@ -1877,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 90.17) (xy 254 92.71)
+			(xy 254 81.28) (xy 254 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 100.33) (xy 254 101.6)
+			(xy 254 91.44) (xy 254 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2476,7 @@
 		(uuid "08d70632-ee9a-406d-b8c2-2ba0b3be1cc0")
 	)
 	(label "HV_DRIVER"
-		(at 254 90.17 90)
+		(at 254 81.28 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2650,7 +2660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 77.47 43.18 0)
 			(effects
 				(font
@@ -2718,7 +2728,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 96.52 0)
+		(at 254 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2727,7 +2737,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cdbfee4-e035-4462-a397-400d8761de79")
 		(property "Reference" "R18"
-			(at 256.54 95.2499 0)
+			(at 256.54 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2746,7 @@
 			)
 		)
 		(property "Value" "160k;1%"
-			(at 256.54 97.7899 0)
+			(at 256.54 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2755,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.222 96.52 90)
+			(at 252.222 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 96.52 0)
+			(at 254 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2773,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 254 96.52 0)
+			(at 254 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,6 +4059,76 @@
 			(project ""
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a2201c-73b7-418a-b6e5-34dfba0aefc0")
+		(property "Reference" "R22"
+			(at 256.54 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "160k;1%"
+			(at 256.54 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 252.222 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4014aa38-ff8d-48d9-89cb-d216c84ae392")
+		)
+		(pin "1"
+			(uuid "cdafd260-decf-43ae-8ed1-3d08d9b20b63")
+		)
+		(instances
+			(project "AvalancheLaserDriver"
+				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699/c432be33-a0da-4a48-91d9-002ec1627f39"
+					(reference "R22")
 					(unit 1)
 				)
 			)
