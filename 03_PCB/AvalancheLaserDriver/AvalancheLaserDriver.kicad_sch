@@ -7,6 +7,7 @@
 	(title_block
 		(title "Lightspeed Laser Driver")
 		(date "2026-02-27")
+		(rev "0.2")
 		(company "Hannes Duske")
 	)
 	(lib_symbols
@@ -1972,7 +1973,7 @@
 		(instances
 			(project "AvalancheLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -2045,7 +2046,7 @@
 		(instances
 			(project "AvalancheLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(page "4")
+					(page "2")
 				)
 			)
 		)
@@ -2178,7 +2179,7 @@
 		(instances
 			(project "AvalancheLaserDriver"
 				(path "/8e13b6ca-3b5b-4f2e-83bc-fdfde26a6699"
-					(page "3")
+					(page "4")
 				)
 			)
 		)

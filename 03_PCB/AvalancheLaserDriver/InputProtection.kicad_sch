@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "25f9cb86-a3b7-46f2-ac9c-6a5a88e9495c")
 	(paper "A4")
+	(title_block
+		(title "Input Protection")
+		(date "2026-02-27")
+		(rev "0.2")
+		(company "Hannes Duske")
+	)
 	(lib_symbols
 		(symbol "Device:D_Zener"
 			(pin_numbers
@@ -1303,6 +1309,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f63b6d9f-6b64-4623-a628-8d0388284a48")
+	)
+	(no_connect
+		(at 189.23 88.9)
+		(uuid "9a8d2080-aca4-4a15-ba09-e583506c57a5")
 	)
 	(wire
 		(pts

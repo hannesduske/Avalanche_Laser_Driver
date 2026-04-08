@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -521,8 +521,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Hannes/Documents/Projekte/04_LightspeedCam/01_Laser_Design/02_PCB/LightspeedLaserDriver/Fabrication/V1.0",
-      "pos_files": "",
+      "plot": "Fabrication/V0.2/",
+      "pos_files": "Fabrication/V0.2/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -717,16 +717,16 @@
       "Root"
     ],
     [
+      "9a3e9dad-710f-4223-a9a8-278918998650",
+      "Input Protection"
+    ],
+    [
       "6c7faaef-a9df-4a02-8e80-f9afae2d6d46",
       "Boost Converter"
     ],
     [
       "c432be33-a0da-4a48-91d9-002ec1627f39",
       "Driver Stage"
-    ],
-    [
-      "9a3e9dad-710f-4223-a9a8-278918998650",
-      "Input Protection"
     ]
   ],
   "text_variables": {}

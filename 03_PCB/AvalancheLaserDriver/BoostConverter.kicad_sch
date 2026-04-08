@@ -6,6 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "DCDC Boost Converter")
+		(date "2026-02-27")
+		(rev "0.2")
+		(company "Hannes Duske")
 	)
 	(lib_symbols
 		(symbol "Device:C"

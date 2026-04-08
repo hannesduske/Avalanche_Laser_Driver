@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "84b0c8f8-fe0e-4db1-9e67-ce7cbb2e82d5")
 	(paper "A4")
+	(title_block
+		(title "Driver Stage")
+		(date "2026-02-27")
+		(rev "0.2")
+		(company "Hannes Duske")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2267,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 53.34) (xy 177.8 68.58)
+			(xy 177.8 58.42) (xy 177.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 43.18) (xy 177.8 45.72)
+			(xy 177.8 43.18) (xy 177.8 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3142,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 177.8 49.53 90)
+		(at 177.8 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3145,7 +3151,7 @@
 		(fields_autoplaced yes)
 		(uuid "52820eac-bdbf-4c89-9e09-cf003806921b")
 		(property "Reference" "D9"
-			(at 180.34 48.5774 90)
+			(at 180.34 53.6574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3160,7 @@
 			)
 		)
 		(property "Value" "SMD115PBQ-TP"
-			(at 180.34 51.1174 90)
+			(at 180.34 56.1974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3169,7 @@
 			)
 		)
 		(property "Footprint" "CustomFootprints:D_SOD-323HE"
-			(at 177.8 49.53 0)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 49.53 0)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3187,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 177.8 49.53 0)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3454,7 @@
 				)
 			)
 		)
-		(property "Value" "10k;1%"
+		(property "Value" "47k;1%"
 			(at 110.49 39.37 90)
 			(effects
 				(font
