@@ -5,7 +5,7 @@
 	(uuid "795795a0-0317-45e1-8000-1656294ce758")
 	(paper "A4")
 	(title_block
-		(title "DCDC Boost Converter")
+		(title "Avalanche Laser Driver")
 		(date "2026-02-27")
 		(rev "0.2")
 		(company "Hannes Duske")
@@ -1204,7 +1204,7 @@
 	)
 	(text "Enable Network"
 		(exclude_from_sim no)
-		(at 255.016 100.838 0)
+		(at 257.048 110.744 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1214,7 +1214,7 @@
 		)
 		(uuid "3d37507d-b59b-4525-be3e-a667ab6eeb19")
 	)
-	(text "The reference voltage of EN and FBX are 1.6V:\n- Cutoff input voltage is 7.5V with selected resistors on EN\n- Output is adjustable from 100V to 260V with selected resistors on FBX\n\nPoti RV1 terminal 2 and 3 tied together that the poti can't fail open circuit\n→ limits VCC_HV in case of poti failure\n\n\nRT=130k compared to 107k in other designs\n→ f=330kHz, larger off-time-margin which would be near the limit at 400kHz,\n  increased ripple doesn't matter because we're just charging the power caps with the output"
+	(text "The reference voltage of EN and FBX are 1.6V:\n- Cutoff input voltage is 7.5V with selected resistors on EN.\n- Output is theoretically adjustable from 165V to 334V with selected resistors on FBX.\n  Measured output voltage with 5kΩ poti and 4.81kΩ fixed resistor is 160V to 316V.\n  (Absolute max voltage rating of FMMT417 BJT is 320V.)\n\nPoti RV1 terminal 2 and 3 tied together that the poti doesn't fail open circuit if wiper gets damaged.\n→ limits VCC_HV in case of poti failure\n\nRT=130kΩ compared to 107kΩ in other designs\n→ f=330kHz, larger off-time-margin which would be near the limit at 400kHz,\n  increased ripple doesn't matter because we're just charging the power caps with the output"
 		(exclude_from_sim no)
 		(at 15.494 183.642 0)
 		(effects
@@ -1225,9 +1225,9 @@
 		)
 		(uuid "49e3b5e0-d0ee-4d8e-855f-9afe39dcb95b")
 	)
-	(text "Reference design:        74437324100  (10uH, 120V)\nAvailable alternative:     74438336100  (10uH, 80V, tiny)\nAvailable alternative:     74438356150  (15uH, 80V)\nBetter alternative:        74438356220  (22uH, 80V)\nNew replacement part:    7443732448100 (10uH, 120V)\nPerformance alternative:  744393305220 (22uH, 120V?)"
+	(text "Alternative 1: 74437324150 (15uH)\nAlternative 2: 74437324220 (22uH)\n"
 		(exclude_from_sim no)
-		(at 83.058 70.104 0)
+		(at 88.138 77.724 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1235,18 +1235,6 @@
 			(justify left top)
 		)
 		(uuid "5727f814-c922-43eb-b62f-ad889a3cfdbb")
-	)
-	(text "Boost Converter"
-		(exclude_from_sim no)
-		(at 160.528 18.288 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.3556)
-				(bold yes)
-			)
-		)
-		(uuid "6071cd28-c88d-460a-9d20-d575bfa0b266")
 	)
 	(text "Feedback Network"
 		(exclude_from_sim no)
@@ -3144,7 +3132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.99k;1%"
+		(property "Value" "4.81k;1%"
 			(at 256.54 83.8199 0)
 			(effects
 				(font
@@ -3821,21 +3809,21 @@
 		(dnp no)
 		(uuid "b2a04ac3-ad20-4a9d-9306-5d6178e35771")
 		(property "Reference" "RV1"
-			(at 251.714 72.39 0)
+			(at 260.858 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "3314J-1-473G"
-			(at 251.714 70.358 0)
+		(property "Value" "3314J-1-503G"
+			(at 260.858 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical"

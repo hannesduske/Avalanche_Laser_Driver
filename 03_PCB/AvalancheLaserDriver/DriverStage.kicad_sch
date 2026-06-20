@@ -5,7 +5,7 @@
 	(uuid "84b0c8f8-fe0e-4db1-9e67-ce7cbb2e82d5")
 	(paper "A4")
 	(title_block
-		(title "Driver Stage")
+		(title "Avalanche Laser Driver")
 		(date "2026-02-27")
 		(rev "0.2")
 		(company "Hannes Duske")
@@ -1749,9 +1749,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "The trigger input uses a wideband RF transformer that galvannically isolates\nthe trigger input to protect the connected signal source. This also limits\nthe trigger pulse width (high pass) which prevents damage to the system from sustained\ninput signals that keep the BJT turned on. The additional diode limits reverse\nvoltage at the base that happens when the trigger signal goes from high to low."
+	(text "A wideband RF transformer is used for galvannic isolation\nof the trigger input to protect the connected signal source.\nThis also limits the trigger pulse width (high pass) which\nprevents damage to the system from sustained input signals\nthat would keep the BJT turned on. The additional diode limits\nreverse voltage at the BJT base that happens when the trigger\nsignal goes from high to low.\n\nThe BJT Q3 is added to achieve consist trigger signals\nat the avalanche transistor base regardless of the voltage\nof TRIG_IN. The addition of the trigger transistor considerably\nimproved the stability of the output current pulses."
 		(exclude_from_sim no)
-		(at 89.154 165.354 0)
+		(at 105.41 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1759,6 +1759,16 @@
 			(justify left top)
 		)
 		(uuid "48d357b0-692e-4206-bede-9ecbcfb5e995")
+	)
+	(text "Input has\n50Ω termination"
+		(exclude_from_sim no)
+		(at 90.17 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5cc6a4b7-0c1d-476f-b7dd-16c93f7a3122")
 	)
 	(text "Isolated Trigger Input"
 		(exclude_from_sim no)
@@ -1784,9 +1794,19 @@
 		)
 		(uuid "77c8cb7e-ea3d-4a18-8ea5-978ecce76c5f")
 	)
-	(text "The output pulse length roughly follows: C*V=I*t\n\nLes Lab produced a 2ns electrical pulse with 376pF at 200V\nWe will use 200pF at 250V\n-> higher currents -> shorter pulse but same energy\n\nWe optimize for smallest ESI to deliver the stored energy faster\n- No pulse shaping resistors\n- Smallest possible cap package with sufficient voltage rating\n- Multiple caps in parallel with less capacitance for overall lower ESI\n- Optimize the layout for smallest possible current loop\n- Limit current through the charging diode, as it has 25pF capacitance\n  itself that significantly slows down the electrical pulse\n\nWould have liked to use four 47pF caps, but couldn't find any\nthat were in stock with 500V voltage rating."
+	(text "Output reads\n100A/V"
 		(exclude_from_sim no)
-		(at 14.986 165.354 0)
+		(at 227.838 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fe58ab6-ce59-44d2-9f6f-834e28c01c88")
+	)
+	(text "The output pulse length roughly follows: C*V=I*t\n- Reference: Les Lab produced a 2ns electrical pulse with 376pF at 200V\n- At a constant pulse energy smaller caps with higher charging voltage\n  yield shorter pulses than large caps with a lower voltage\n- We will use 200pF up to 316V\n\nOptimize design for small ESI to deliver the stored energy faster\n- No pulse shaping resistors\n- Smallest possible cap package with sufficient voltage rating\n- Multiple caps in parallel with less capacitance for overall lower ESI\n- Optimize the layout for smallest possible current loop\n  (This design has all components on one side, double sided assembly could potentially\n   have lower ESI because of smaller current loop between parallel traces)\n\nWould have liked to use four 47pF caps, but couldn't find any\nthat were in stock with 500V voltage rating."
+		(exclude_from_sim no)
+		(at 15.24 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
