@@ -1,0 +1,17 @@
+# Directories
+.vscode/
+
+# KiCAD
+*backups*/
+*autosave*
+fp-info-cache
+*.lck
+\#auto_saved_files\#
+.kicad_push
+
+# LT Spice
+*.raw
+*.op
+*.plt
+*.log
+*.net
