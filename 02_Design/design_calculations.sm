@@ -4,7 +4,7 @@
   <settings ppi="120">
     <identity>
       <id>e8bd0d25-5849-42fd-870b-be0fb6726d89</id>
-      <revision>18</revision>
+      <revision>19</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -871,10 +871,10 @@
         </result>
       </math>
     </region>
-    <region left="468" top="4041" width="249" height="38" color="#000000" fontSize="10">
+    <region left="468" top="4041" width="260" height="38" color="#000000" fontSize="10">
       <text lang="ger" fontFamily="Arial" fontSize="10">
         <content>
-          <p>Per Datasheet the inductor must handle<br />2.7A without saturating</p>
+          <p>According to datasheet the inductor must handle 2.7A without saturating</p>
         </content>
       </text>
     </region>
