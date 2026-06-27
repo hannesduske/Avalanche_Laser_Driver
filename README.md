@@ -189,6 +189,13 @@ In this design the driver capacitance is $200\ pF$ with a maximum output voltage
 The maximum stored electrical energy per pulse is $E_p=\frac{1}{2}\cdot C \cdot U^2=\frac{1}{2}\cdot 200\ pF \cdot (320\ V)^2=10.24\ \mu J$.
 With the maximum achievable trigger frequency of $20\ kHz$ (see measurements below) the maximum theoretical average output power is approximately $P=E_p\cdot f=10.24\mu J\cdot 20\ kHz=205\ mW$
 
+The $20\ m\Omega$ four-terminal shunt resistor $R19$ is placed in series with the driver output, enabling the pulse current to be monitored.
+This low-value resistor has a minimal effect on the pulse current while providing accurate measurements through its two sense terminals.
+The circuit's sense output is designed to drive a $50\ \Omega$-terminated oscilloscope input.
+Together with the external $50\ \Omega$ termination resistor, the internal $50\ \Omega$ resistor $R15$ forms a $1:2$ voltage divider.
+The $20\ m\Omega$ shunt resistor provides a sensitivity of $20\ mV/A$.
+This is halved by the voltage divider, resulting in a final sensitivity of $10\ mV/A$ or $100\ A/V$ at the circuit's current sense output.
+
 ### 2.5 Trigger Input Stage
 
 <div align="center">
