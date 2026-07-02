@@ -105,8 +105,6 @@ For monitoring the generated output pulses, the driver includes a current-sense 
 
 > ℹ️ The upper voltage limit is chosen to match the FMMT417's collector-emitter voltage rating of $320\ V$.
 
-> ℹ️ The maximum frequency can be increased by replacing the $47\ k\Omega$ charge current-limiting resistor with a smaller one.
-
 > ℹ️ The actual cutoff voltage of the driver input is $7.5\ V$, but it is not guaranteed that the boost converter can reach its maximum output voltage with inputs below $9\ V$.
 
 ### 1.3 Measured Performance
@@ -122,6 +120,9 @@ For monitoring the generated output pulses, the driver includes a current-sense 
 | Maximum Frequency | $20\ kHz$ |
 
 </div>
+
+> ℹ️ The maximum frequency can be increased by replacing the $47\ k\Omega$ charge current-limiting resistor with a smaller one.
+Read [this](#42-short-circuit-test) for details.
 
 ## 2. Circuit Design
 
@@ -155,12 +156,14 @@ Two diode-capacitor stages are added to the output of the boost converter to rea
 The two additional stages reduce the current available for charging the output capacitors and the output charging resistor $R12$ is sized accordingly.
 
 The output voltage is set by the feedback network formed by $R5$, $R7$ and $RV1$.
-The ratio of $R5$ to $R7$ sets the maximum output voltage and $R7$ is tuned to achieve a $320\ V$ output with the assembled circuit.
+The ratio of $R5$ to $R7$ sets the maximum output voltage HV\_OUT and $R7$ is tuned to achieve a $320\ V$ output with the assembled circuit.
 The theoretical maximum voltage with the selected values $R5=1\ M\Omega$ and $R7=4.81\ k\Omega$ is $334\ V$.
 
 The potentiometer $RV1$ sets the adjustment range of the output voltage.
-It should be large enough to cover the whole range from the FMMT417's minimum avalanche voltage (around $215\ V$) to its collector-emitter voltage rating of $320\ V$.
-The chosen value of $5\ k\Omega$ is slightly large for that purpose as it gives a lower voltage limit of $160\ V$ which is lower than necessary.
+It should cover the entire range from the FMMT417's minimum avalanche voltage (around $215\ V$) to its collector-emitter voltage rating of $320\ V$.
+The chosen value of $5\ k\Omega$ is larger than necessary for that purpose, as it gives a lower voltage limit of $160\ V$.
+Using a smaller value potentiometer (around $3.3\ k\Omega$) would enable finer adjustments while still covering the entire voltage range.
+
 The third terminal of $RV1$ is also connected so that, if the potentiometer wiper fails open-circuit, the potentiometer defaults to its maximum resistance.
 In that case the boost converter falls back to its minimum output voltage.
 
@@ -286,7 +289,7 @@ The output voltage of the driver is adjustable between $160\ V$ and $320\ V$.
 </table>
 </div>
 
-> ℹ️ The feedback resistors should not be replaced to increase the upper voltage limit above $320\ V$.
+> ⚠️ The feedback resistors should not be replaced to increase the upper voltage limit above $320\ V$.
 > Increasing the output voltage risks instant destruction of the FMMT417.
 
 ### 4.2 Short-Circuit Test
