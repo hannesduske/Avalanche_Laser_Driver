@@ -70,11 +70,12 @@ The driver integrates an adjustable boost converter to generate up to $\mathbf{3
   - [4.2 Short Circuit Test](#42-short-circuit-test)
   - [4.3 Blue LED Performance](#43-blue-LED-performance)
   - [4.4 PLPT9 450LC_E Performance](#44-plpt9-450lc_e-performance)
-- [5. References](#5-references)
-  - [5.1 Datasheets of Main Components](#51-datasheets-of-main-components)
-  - [5.2 Reference Designs](#52-reference-designs)
-  - [5.3 General Resources](#53-general-resources)
-  - [5.4 Design Tools](#54-design-tools)
+- [5. Protective Cover](#5-protective-cover)
+- [6. References](#6-references)
+  - [6.1 Datasheets of Main Components](#61-datasheets-of-main-components)
+  - [6.2 Reference Designs](#62-reference-designs)
+  - [6.3 General Resources](#63-general-resources)
+  - [6.4 Design Tools](#64-design-tools)
 
 ## 1. Technical Specification
 
@@ -359,23 +360,47 @@ It would be interesting to see how this oscillatory behavior actually influences
 
 Similar to the short-circuit test the oscillation frequency is approximately 150 MHz.
 
-## 5. References
-### 5.1 Datasheets of Main Components
+## 5. Protective Cover
+
+A 3D printed cover has been designed for the driver.
+It covers the high voltage components and exposes only the peripherals.
+
+The cover is available in two variants.
+A monolithic version that is easy to print and a version with **T**rigger/ **S**ense markings for printers with filament change capability.
+
+<div align="center">
+<table style="border: none;">
+  <tr>
+    <td style="text-align:center">
+      <img src="01_Docs/01_Img/cad_pcb_cover.jpg" width=300><br>
+      <p>Monolithic cover</p>
+    </td>
+    <td style="text-align:center">
+      <img src="01_Docs//01_Img/cad_pcb_cover_text.jpg" width=300><br>
+      <p>Cover with Trigger/ Sense markings</p>
+    </td>
+  </tr>
+</table>
+</div>
+
+## 6. References
+### 6.1 Datasheets of Main Components
 - [LT8365](https://www.analog.com/media/en/technical-documentation/data-sheets/lt8365.pdf) Boost converter
 - [FMMT417](https://www.diodes.com/datasheet/download/FMMT417.pdf) Avalanche transistor
 - [PLPT9 450LC_E](https://look.ams-osram.com/m/8992eec443b4ce2/original/PLPT9-450LC_E.pdf) ams OSRAM Laser Diode
 
-### 5.2 Reference Designs
+### 6.2 Reference Designs
 - [Les' Lab Laser Driver](https://github.com/leswright1977/avalanche-laser-diode-driver) + [Video](https://www.youtube.com/watch?v=3-htF8Jrixo&t=24s) (ZTX415/ 2N5192G)
 - [BigPulse Driver](https://github.com/MazinLab/BigPulse) + [Video](https://www.youtube.com/watch?v=OXhiX0EW5MI) (FMMT415TD + LT8365)
 
-### 5.3 General Resources
+### 6.3 General Resources
 - Lasercomponents [Whitepaper](https://www.lasercomponents.com/uk/photonics-portal/knowledge-center/whitepapers/drive-electronics-for-pulsed-laser-diodes/)
 - Zetex ZTX415 [Application Note AN8](https://user-web.icecube.wisc.edu/~kitamura/NK/Flasher_Board/Useful/research/AN8.pdf)
 - Jim Williams Pulser [AN47 Appendix D (p. 93)](https://www.analog.com/media/en/technical-documentation/application-notes/an47fa.pdf)
 - Selection and usage of laser safety goggles [DGUV 203-042](https://publikationen.dguv.de/widgets/pdf/download/article/249) (German)
+- Continuous wave laser diodes enable fast optoacoustic imaging [ResearchGate](https://www.researchgate.net/publication/321863583_Continuous_wave_laser_diodes_enable_fast_optoacoustic_imaging)
 
-### 5.4 Design Tools
+### 6.4 Design Tools
 - [LTSpice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html) Circuit simulation
 - [KiCad 10](https://www.kicad.org/blog/2026/03/Version-10.0.0-Released/) Circuit board design
 - [SMath Studio](https://smath.com/) Design calculations
