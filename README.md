@@ -339,8 +339,18 @@ The output is set to $320\ \mathrm{V}$ and the trigger signal is a $2\ \mathrm{V
 
 With the blue LED, the output pulse is significantly different compared to the short-circuit test.
 There is a large, narrow current pulse across the diode, followed by a smaller, wider pulse in the reverse direction.
-
 With the blue LED, the maximum current is $70\ \mathrm{A}$ with a $2\ \mathrm{ns}$ pulse width.
+
+In a second test, the optical pulse shape was measured at a lower drive current with the [Fast SiPM Photodetector](https://github.com/hannesduske/Fast_SiPM_Photodetector).
+The cyan trace shows the drive-current pulse, and the yellow trace shows the measured SiPM response to the LED's light emission.
+The oscilloscope measured pulse widths of $2.35\ \mathrm{ns}$ for the drive-current pulse and $5.55\ \mathrm{ns}$ for the SiPM output.
+The SiPM output pulse is significantly wider than the drive-current pulse.
+
+<div align="center">
+  <img src="01_Docs/01_Img/transient_generic_blue_led.png" width=600><br>
+  <p>Drive-current pulse (cyan) through the blue LED and the measured SiPM output (yellow) averaged over 64 measurements.</p>
+</div>
+
 
 ### 4.4 PLPT9 450LC_E Performance
 
@@ -354,11 +364,17 @@ The output is set to $320\ \mathrm{V}$ and the trigger signal is a $2\ \mathrm{V
 
 With the PLPT9 laser diode the maximum current is $141\ \mathrm{A}$ with a $2\ \mathrm{ns}$ pulse width.
 
-Note that the oscillation is less damped compared to that of the blue LED and more similar to the short-circuit test.
-Presumably this is because of the integrated reverse-protection Zener diode in the PLPT9 package which protects the sensitive main laser diode against reverse currents.
-It would be interesting to see how this oscillatory behavior actually influences the optical pulse shape of the PLPT9 laser.
+Note that the oscillation is less damped than with the blue LED and more similar to the short-circuit test.
+Presumably this is because of the integrated reverse-protection Zener diode in the PLPT9 package, which protects the sensitive main laser diode against reverse currents.
 
-Similar to the short-circuit test the oscillation frequency is approximately 150 MHz.
+The optical pulse shape was measured with the [Fast SiPM Photodetector](https://github.com/hannesduske/Fast_SiPM_Photodetector).
+The oscillations in the drive-current pulse are also visible as additional peaks in the measured SiPM response, showing that they carry through to the laser's light emission.
+Similar to the short-circuit test, the oscillation frequency is approximately 150 MHz.
+
+<div align="center">
+  <img src="01_Docs/01_Img/transient_plpt9_450lc_e.png" width=600><br>
+  <p>Drive-current pulse (cyan) through the PLPT9 450LC_E laser diode and the measured SiPM output (yellow) averaged over 64 measurements.</p>
+</div>
 
 ## 5. Protective Cover
 
